@@ -1,6 +1,5 @@
-//import java.time.temporal.ValueRange;
 import java.util.*;
-//import java.lang.*;
+
 // Задание
 
 // Реализуйте структуру телефонной книги с помощью HashMap.
@@ -24,12 +23,6 @@ public class Task_1 {
 
         // Получаем набор всех ключей abon
         Set<String> keySet = map.keySet();
-
-        // Получаем первый ключ из набора ключей
-        //String firstKey = keySet.iterator().next();
-
-        // Получаем значение первого ключа (ArrayList)
-        //ArrayList<Integer> firstValue = map.get(firstKey);
 
         // Находим минимальное и максимальное значение
         int maxCount = 0;
