@@ -18,7 +18,7 @@ import java.util.*;
 
 public class Task_1 {
 
-    // Метод sortedPrint() сортирует и распечатывает данные по абонентам
+// -----  Метод sortedPrint() сортирует и распечатывает данные по абонентам -----
     static void sortedPrint(Map<String, ArrayList> map) {
 
         // Получаем набор всех ключей abon
@@ -62,7 +62,7 @@ public class Task_1 {
     }
 
     
-
+// ------------- основная часть ----------------------------------
     public static void main(String[] args) {
         // Инициализация начального списка
         Map<String, ArrayList> abon = new HashMap<>() {
