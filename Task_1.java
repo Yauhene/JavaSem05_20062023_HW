@@ -1,10 +1,7 @@
 //import java.time.temporal.ValueRange;
 import java.util.*;
-import java.lang.*;
+//import java.lang.*;
 // Задание
-
-import javax.sound.sampled.AudioFormat.Encoding;
-
 
 // Реализуйте структуру телефонной книги с помощью HashMap.
 // Программа также должна учитывать, что во входной структуре будут повторяющиеся имена
@@ -144,6 +141,7 @@ public class Task_1 {
                 }
                 case "9": {
                     getOut = true;
+                    System.out.println();
                     System.out.println("Так быстро? Ну, до новых встреч!");
                     System.out.println();
                     break;
